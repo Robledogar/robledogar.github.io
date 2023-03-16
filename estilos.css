@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+* {
+	font-family: 'Kalam', cursive;
+}
+
+body {
+	
+	
+	margin: 0;
+	padding: 0x;
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+}
+
+header {
+	top: 0;
+	left: 0;
+	background: #000;
+	width: 100%;
+	height: auto;
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	margin: 10px;
+	
+
+
+	
+}
+
+ul {
+	
+	padding: .5em;
+	list-style: none;	
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: -10px;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+}
+
+
+img {
+	max-width: 100%;	
+}
+
+
+
+.menu {
+	background: rgb(0, 0, 0, .1);
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+		.titulo {
+			font-size: 30px;
+		}
+
+		.nav ul {
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;	
+		}
+
+		.nav ul li a:hover {
+			color: #fff;
+			
+		}
+
+main {	
+	width: 100%;
+	height: auto;
+}
+	
+
+	.sobreMiContenedor {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-around;
+		padding: 10px;	
+	}
+
+
+
+		.foto img{
+			width: 300px;
+			border-radius: 20px;
+			box-shadow: 0px 0px 30px black;
+			
+		}
+
+		.textoSobreMi {
+			width: 450px;
+			margin-left: 20px;
+		}
+
+	.demosContenedor{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+
+	}
+
+	.demos {
+		margin-top: -25px;
+	}
+		.demoItem {
+			width: 400px;
+			height: auto;
+			padding: 10px;
+			
+
+			
+		}
+
+			.demoImg img{
+				width: 400px;
+				height: 250px;
+				border-radius: 20px;
+				box-shadow: 0px 0px 20px black;
+				margin-bottom: 20px;
+				
+
+			}
+
+			.demoBotones {
+				display: flex;
+				flex-flow: rox	nowrap;
+				justify-content: space-around;
+			}
+
+				 button {
+					border: none;
+					border-radius: 5px;
+					font-size: 15px;
+					height: 30px;
+					padding: 5px;
+					background-color: #b6bdc9;
+					box-shadow: 0px 0px 10px black;
+					transition: 500ms;
+				}
+
+				button:hover {
+					transform: scale(1.1);
+
+				}
+
+				a:hover {
+					color: #fff;
+				}
+
+				
+
+				
+
+
+
+	.conocimientosContenedor {
+	
+		margin-top: 30px;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		gap: 30px;
+		
+
+		
+	}
+		.conocimientosContenedor div img {
+			width: 80px;
+			height: auto;
+			
+		}
+
+		.wordpress {
+			display: flex;
+			align-items: center;
+		}
+
+		.wordpress  img {
+			width: 118px !important;
+		}
+
+	.contactoContenedor {
+		margin: 30px 0 40px 0;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		
+	}
+
+	.contactoContenedor div a img {
+		transition: 500ms;
+	}
+
+	.contactoContenedor div a img:hover {
+		transform: scale(1.2);
+	}
+		
+
+		.linkedin img {
+			width: 56px;
+			border-radius: 10px;
+		}
+
+		.twitter img {
+			width: 60px;
+			border-radius: 15px;
+		}
+
+		.email img {
+			width: 57px;
+			
+		}
+
+
+
+
+
+	footer {
+		width: 100%;
+		height: auto;
+		background: #000;
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		
+	}
+
+		
+
+	@media all and (max-width: 840px) {
+		
+		header {
+			top: 0;
+			left: 0;
+		}
+		.nav {
+			margin-top: -40px;
+		}
+
+		.menu {
+			height: auto;
+			flex-flow: column nowrap;
+			align-items: center;	
+		}
+		.sobreMiContenedor {
+			margin-top: 20px;
+		}
+
+		.demos {
+			margin-top: -30px;
+		}
+
+		
+		
+	}
+
+	@media (max-width: 560px) {
+
+		header {
+			position: initial;
+		}
+		
+		.nav ul {
+			flex-flow: column nowrap;
+			align-items: center;
+		}
+
+		.nav {
+			margin-top: -30px;
+		}
+
+		.nav ul li{
+			margin: 5px;
+		}
+
+		main {
+			padding-top: 0;
+		}
+
+		.textoSobreMi {
+			
+		}
+	}
+
+	
